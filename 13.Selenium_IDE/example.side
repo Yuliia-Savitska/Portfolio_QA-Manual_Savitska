@@ -1,0 +1,134 @@
+{
+  "id": "cf4e1089-5af8-42ae-ae15-50ea2bda6a4f",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://www.yakaboo.ua/",
+  "tests": [{
+    "id": "744b1f8c-3c65-4a79-94da-a6218ab3bada",
+    "name": "Add product to a cart",
+    "commands": [{
+      "id": "e39c716f-10b5-4599-8120-0fdc4341299a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.yakaboo.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63a4825c-e53c-40c9-b3cc-f9dc8c951293",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='']",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='site-header']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0bcf34d-562f-4159-978d-47640718c93d",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@value='']",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='site-header']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "кафе на краю світу"
+    }, {
+      "id": "716b1b3b-ca33-42a9-907e-abf19b7dc512",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Пошук')]",
+      "targets": [
+        ["css=.ui-btn-primary:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//header[@id='site-header']/div/div/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Пошук')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "459a7492-e41e-41a4-a29c-fcc1402885a2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='[object Object] «Кафе на краю світу.», автор Джон П. Стрелекі – фото №1']",
+      "targets": [
+        ["css=div:nth-child(1) > .category-card .product-image__thumb", "css:finder"],
+        ["xpath=//img[@alt='[object Object] «Кафе на краю світу.», автор Джон П. Стрелекі – фото №1']", "xpath:img"],
+        ["xpath=//div[@id='viewport']/div[9]/div/div[2]/div[2]/div[2]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8211d9b-130f-45b4-95de-58ce006ff473",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'До кошика')]",
+      "targets": [
+        ["css=.preview__footer .ui-btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div/div/section/div[4]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'До кошика')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eaec64b-ace5-4f85-bb27-164dfb1b2bb8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/button",
+      "targets": [
+        ["css=.ui-btn-shopping-cart", "css:finder"],
+        ["xpath=//header[@id='site-header']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ed43eb7-57eb-45d7-9c81-dea5b15cd46a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Видалити все')]",
+      "targets": [
+        ["css=.header-clear-cart", "css:finder"],
+        ["xpath=//div[@id='viewport']/div[3]/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Видалити все')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2919c01-aea5-4ccc-b80f-cc112b950021",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'OK')]",
+      "targets": [
+        ["css=.btn--info:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='viewport']/div[10]/span/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "796dddbe-6e31-4227-9d60-813c6e9b269f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header > .ui-btn-close > svg",
+      "targets": [
+        ["css=.header > .ui-btn-close > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eb293a1c-c3fa-44b4-9e88-5d08e7f3584d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://mills.com.ua/", "https://www.yakaboo.ua/"],
+  "plugins": []
+}

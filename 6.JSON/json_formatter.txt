@@ -1,0 +1,44 @@
+{
+  "seller": [
+    {
+      "firstName": "Natalia",
+      "lastName": "Ivanovych",
+      "age": 28,
+      "phoneNumber": "+380639995566",
+      "email": "natalia@gmail.com",
+      "work": "online"
+    },
+    {
+      "firstName": "Anna",
+      "lastName": "Gluz",
+      "age": 35,
+      "phoneNumber": "+380639997754",
+      "email": "anna@gmail.com",
+      "work": "offline"
+    },
+    {
+      "firstName": "Oleg",
+      "lastName": "Vasko",
+      "age": 26,
+      "phoneNumber": "+380979994436",
+      "email": "oleg@gmail.com",
+      "work": "online"
+    },
+    {
+      "firstName": "Vitaly",
+      "lastName": "Prytika",
+      "age": 38,
+      "phoneNumber": "+380985589898",
+      "email": "vitaly@gmail.com",
+      "work": "offline"
+    },
+    {
+      "firstName": "Oksana",
+      "lastName": "Burko",
+      "age": 29,
+      "phoneNumber": "+380983485621",
+      "email": "oksana@gmail.com",
+      "work": "offline"
+    }
+  ]
+}
