@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store>
+	<sellers>
+		<seller id="1">
+			<firstName>Natalia</firstName>
+			<lastName>Ivanovych</lastName>
+			<phoneNumber>+380639995566</phoneNumber>
+		</seller>
+		<seller id="2">
+			<firstName>Oleg</firstName>
+			<lastName>Vasko</lastName>
+			<phoneNumber>+380979994436</phoneNumber>
+		</seller>
+		<seller id="3">
+			<firstName>Oksana</firstName>
+			<lastName>Burko</lastName>
+			<phoneNumber>+380983485621</phoneNumber>
+		</seller>
+	</sellers>
+	<food>
+		<fish type="salmon"/>
+		<salad>Vegetable</salad>
+		<cheese>Cheddar</cheese>
+		<apples type="Golden" colour="green"/>
+		<water/>
+	</food>
+</store>
+
+
